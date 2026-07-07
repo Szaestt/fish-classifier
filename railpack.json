@@ -1,6 +1,4 @@
 {
-  "$schema": "https://schema.railpack.com",
-  "deploy": {
-    "startCommand": "uvicorn app.backend.main:app --host 0.0.0.0 --port $PORT"
-  }
+  "$schema": "https://railpack.com/schema.json",
+  "start": "uvicorn app.backend.main:app --host 0.0.0.0 --port $PORT"
 }
