@@ -1,5 +1,5 @@
 // Konfigurasi - ganti kalo backend lo di host/port lain
-const API_URL = "http://localhost:8000";
+const API_URL = "https://fish-classifier-production.up.railway.app";
 
 const uploadArea = document.getElementById("upload-area");
 const fileInput = document.getElementById("file-input");
